@@ -7,19 +7,21 @@ const ContadorDoble = () => {
     // ---------- espacio para declarar funciones ----------
     function handlerClick(nombre, numero = 1){
         setfriends((prevFriends)=> {
-            promedioAmigos()
-            return {
+            const updatedFriends = {
                 ...prevFriends,
                 [nombre]: prevFriends[nombre] === 0 && numero < 0 ? 0 : prevFriends[nombre] + numero,
             } 
+            promedioAmigos(updatedFriends);
+            return updatedFriends;
         });
     }
 
-    const promedioAmigos = () => {
-        const numAmigosArray = Object.values(friends);
+    const promedioAmigos = (updatedFriends) => {
+        const numAmigosArray = Object.values(updatedFriends);
         const totalAmigos = numAmigosArray.reduce((acc, numAmigo)=> acc + numAmigo, 0);
-        setPromedio((numAmigosArray) => numAmigosArray.length > 0 ? totalAmigos / numAmigosArray.length : 0)
+        setPromedio(numAmigosArray.length > 0 ? totalAmigos / numAmigosArray.length : 0);
     }
+    //Dudas por que hay que pasarle el updatedFriends a la funcion promedioAmigos
 
   return (
     <>

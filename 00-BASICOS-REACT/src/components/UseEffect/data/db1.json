@@ -1,0 +1,79 @@
+{
+    "users": [
+        {
+            "username": "john_doe",
+            "email": "john.doe@example.com",
+            "password": "JohnDoe123"
+        },
+        {
+            "username": "jane_smith",
+            "email": "jane.smith@example.com",
+            "password": "JaneSmith123"
+        },
+        {
+            "username": "michael_brown",
+            "email": "michael.brown@example.com",
+            "password": "MichaelBrown123"
+        },
+        {
+            "username": "emily_davis",
+            "email": "emily.davis@example.com",
+            "password": "EmilyDavis123"
+        },
+        {
+            "username": "david_wilson",
+            "email": "david.wilson@example.com",
+            "password": "DavidWilson123"
+        },
+        {
+            "username": "sarah_miller",
+            "email": "sarah.miller@example.com",
+            "password": "SarahMiller123"
+        },
+        {
+            "username": "chris_moore",
+            "email": "chris.moore@example.com",
+            "password": "ChrisMoore123"
+        },
+        {
+            "username": "amanda_taylor",
+            "email": "amanda.taylor@example.com",
+            "password": "AmandaTaylor123"
+        },
+        {
+            "username": "joshua_anderson",
+            "email": "joshua.anderson@example.com",
+            "password": "JoshuaAnderson123"
+        },
+        {
+            "username": "megan_thomas",
+            "email": "megan.thomas@example.com",
+            "password": "MeganThomas123"
+        },
+        {
+            "username": "daniel_jackson",
+            "email": "daniel.jackson@example.com",
+            "password": "DanielJackson123"
+        },
+        {
+            "username": "laura_white",
+            "email": "laura.white@example.com",
+            "password": "LauraWhite123"
+        },
+        {
+            "username": "matthew_harris",
+            "email": "matthew.harris@example.com",
+            "password": "MatthewHarris123"
+        },
+        {
+            "username": "olivia_martin",
+            "email": "olivia.martin@example.com",
+            "password": "OliviaMartin123"
+        },
+        {
+            "username": "james_thompson",
+            "email": "james.thompson@example.com",
+            "password": "JamesThompson123"
+        }
+    ]
+}

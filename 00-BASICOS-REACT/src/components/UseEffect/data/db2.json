@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Clean Code",
+        "price": 30,
+        "tags": ["Software Engineering", "Best Practices"],
+        "img": "clean_code.jpg"
+    },
+    {
+        "id": 2,
+        "name": "The Pragmatic Programmer",
+        "price": 35,
+        "tags": ["Software Engineering", "Best Practices"],
+        "img": "pragmatic_programmer.jpg"
+    },
+    {
+        "id": 3,
+        "name": "JavaScript: The Good Parts",
+        "price": 25,
+        "tags": ["JavaScript"],
+        "img": "javascript_good_parts.jpg"
+    },
+    {
+        "id": 4,
+        "name": "You Don't Know JS",
+        "price": 28,
+        "tags": ["JavaScript"],
+        "img": "you_dont_know_js.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Eloquent JavaScript",
+        "price": 32,
+        "tags": ["JavaScript"],
+        "img": "eloquent_javascript.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Python Crash Course",
+        "price": 27,
+        "tags": ["Python"],
+        "img": "python_crash_course.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Automate the Boring Stuff with Python",
+        "price": 29,
+        "tags": ["Python"],
+        "img": "automate_boring_stuff.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Learning React",
+        "price": 33,
+        "tags": ["React", "JavaScript"],
+        "img": "learning_react.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Effective Java",
+        "price": 40,
+        "tags": ["Java"],
+        "img": "effective_java.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Head First Design Patterns",
+        "price": 38,
+        "tags": ["Design Patterns", "Software Engineering"],
+        "img": "head_first_design_patterns.jpg"
+    }
+]

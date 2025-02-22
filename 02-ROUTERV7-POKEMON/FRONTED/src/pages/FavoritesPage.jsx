@@ -3,7 +3,7 @@ import { usePokemon } from '../context/PokemonContext';
 import { ROUTES } from '../routes/paths';
 
 const FavoritesPage = () => {
-  const [favorites, removeFromFavorites] = usePokemon();
+  const { favorites, removeFromFavorites } = usePokemon();
 
   if(favorites.length === 0){
     return (
@@ -25,7 +25,7 @@ const FavoritesPage = () => {
             className='w-32 h-32 mx-auto' />
             <h2 className='text-xl font-semibold text-center capitalize mt-2'>{pokemon.name}</h2>
             <div className='mt-4 space-y-2'>
-              <Link to={`${ROUTES.SEARCH}/${pokemon.name}`} className='block w-ful text-center bg-blue-500 text-white px-4 py-3 rounded hover:bg-blue-800'>Ver detalles</Link>
+              <Link to={`/pokemon/${pokemon.name}`} className='block w-ful text-center bg-blue-500 text-white px-4 py-3 rounded hover:bg-blue-800'>Ver detalles</Link>
               <button onClick={() => removeFromFavorites(pokemon.id)} className='w-full text-center bg-red-500 text-white px-4 py-2 rounded hover:bg-red-800'>Eliminar Favoritos</button>
             </div>
           </div>

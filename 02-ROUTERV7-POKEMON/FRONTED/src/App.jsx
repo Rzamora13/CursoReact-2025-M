@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <PokemonProvider>
-        <Toaster position="top-right" duration={200} />
+        <Toaster position="top-right" duration={1000} />
         <RouterProvider router={router} />
       </PokemonProvider>
     </>

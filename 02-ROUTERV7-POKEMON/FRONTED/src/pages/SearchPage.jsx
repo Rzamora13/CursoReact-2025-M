@@ -17,9 +17,9 @@ const SearchPage = () => {
       }
       const data = await response.json()
       console.log(data)
-      navigate(`/search/${search.toLocaleLowerCase()}`)
+      navigate(`/pokemon/${search.toLocaleLowerCase()}`)
     }catch(error){
-      toast.error('Pokemon no encontrado', {style:{background: "#fef2f2", border: "1px solid #ff", color: "#991b1b"}});
+      toast.error('Pokemon no encontrado verifica el nombre e intentalo de nuevo', {style:{background: "#fef2f2", border: "1px solid #ff", color: "#991b1b"}});
     }
   }
 

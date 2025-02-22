@@ -15,7 +15,7 @@ const Home = () => {
 
   const fetchPokemons = async () => {
     try{
-      const response = await fetch("https://pokeapi.co/api/v2/pokemon?limit=20");
+      const response = await fetch("https://pokeapi.co/api/v2/pokemon?limit=50");
       if (!response.ok) {
         throw new Error("Something went wrong");
       }
@@ -65,7 +65,7 @@ const Home = () => {
               >
                 Añadir a favoritos
               </button>
-              <Link to={`/search/${pokemon.name}`} className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-800">
+              <Link to={`/pokemon/${pokemon.name}`} className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-800">
                 Ver detalles 
               </Link>
             </div>
